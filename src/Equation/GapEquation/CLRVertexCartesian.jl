@@ -2,13 +2,20 @@ module CLRVertexCartesian
 
 using Printf
 using GaussLegendrePolynomial
-using DSEMathWrapper
 using NLsolve, Dierckx
 using HDF5
 using GluonModel
 using Revise
 
 const N_kernel = 35::Integer
+
+function inte_array_cmplx(func, w) 
+  s = zero(eltype(func))
+  for i = eachindex(func)
+    s += func[i] * w[i]
+  end
+  return s
+end
 
 include(joinpath(@__DIR__,"CommonFunction","AllocateCommonVariables.jl"))
 include(joinpath(@__DIR__,"CommonFunction","AssignInitValue.jl"))

@@ -4,7 +4,6 @@ authors = ["Bai-Zhan <baizhan.phy@hotmail.com>"]
 version = "0.1.0"
 
 [deps]
-DSEMathWrapper = "7e9efd62-cf87-4331-b43e-057fd100d903"
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 GaussLegendrePolynomial = "5f8f3bc5-5522-4cbe-aebe-a18ddaea0e70"
 GluonModel = "168114fb-dd35-4ec1-ab8b-b1ac068f2559"

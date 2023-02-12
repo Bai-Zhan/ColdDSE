@@ -59,12 +59,6 @@ git-tree-sha1 = "fb21ddd70a051d882a1686a5a550990bbe371a95"
 uuid = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 version = "1.4.1"
 
-[[deps.DSEMathWrapper]]
-deps = ["NLsolve"]
-path = "src/DSEMathWrapper"
-uuid = "7e9efd62-cf87-4331-b43e-057fd100d903"
-version = "0.1.0"
-
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
